@@ -393,8 +393,8 @@ def parse_base_arguments():
 
     config = BonsaiConfig()
     partial_url = "ws://{host}:{port}/v1/{user}".format(
-            host=config.api_host(),
-            port=config.api_port(),
+            host=config.host(),
+            port=config.port(),
             user=config.username())
 
     # If the --brain_url flag was specified, use its value literally
