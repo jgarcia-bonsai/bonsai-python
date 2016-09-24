@@ -31,11 +31,11 @@ setup(
     install_requires=[
         'websockets>=3.1,<4',
         'protobuf>=3.0.0,<4',
-        'bonsai-config==0.2.0',
+        'bonsai-config',
     ],
     dependency_links=[
         # Temporary until we get bonsai-config on PyPI
-        'git+https://github.com/BonsaiAI/bonsai-config.git#egg=bonsai_config-0.2.0',
+        'git+https://github.com/BonsaiAI/bonsai-config.git#egg=bonsai_config',
     ],
     packages=find_packages()
     )
