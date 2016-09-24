@@ -31,7 +31,7 @@ setup(
     install_requires=[
         'websockets>=3.1,<4',
         'protobuf>=3.0.0,<4',
-        'bonsai_config>=0.2.0',
+        'bonsai-config>=0.2.0',
     ],
     dependency_links=[
         # Temporary until we get bonsai-config on PyPI
