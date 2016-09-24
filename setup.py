@@ -35,7 +35,7 @@ setup(
     ],
     dependency_links=[
         # Temporary until we get bonsai-config on PyPI
-        'https://github.com/BonsaiAI/bonsai-config/tarball/master#egg=bonsai-config-0.2.0',
+        'http://github.com/BonsaiAI/bonsai-config/tarball/master#egg=bonsai-config-0.2.0',
     ],
     packages=find_packages()
     )
